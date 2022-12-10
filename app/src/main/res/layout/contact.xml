@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/about">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Về chúng tôi"
+        android:gravity="center"
+        android:textSize="50dp"
+        android:textColor="#ED392C"
+        android:textStyle="bold"
+        android:background="@color/black"
+        />
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#C1BEBE"
+            android:padding="10dp"
+            android:text="SL CINEMA
+SL Cinema là một trong top 5 cụm rạp chiếu phim lớn nhất toàn cầu và là nhà phát hành, cụm rạp chiếu phim lớn nhất Việt Nam.Mục tiêu của chúng tôi là trở thành hình mẫu công ty điển hình đóng góp cho sự phát triển không ngừng của ngành công nghiệp điện ảnh Việt Nam.
+
+SL Cinema sẽ tiếp tục cuộc hành trình bền bỉ trong việc góp phần xây dựng một nền công nghiệp điện ảnh Việt Nam ngày càng vững mạnh hơn cùng các khách hàng tiềm năng, các nhà làm phim, các đối tác kinh doanh uy tín, và cùng toàn thể xã hội.
+"
+            android:textSize="30dp"
+            android:textStyle="italic|bold" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Gọi cho chúng tôi"
+            android:backgroundTint="#EF0909"
+            android:layout_marginTop="20dp"
+            android:id="@+id/callbtn"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mapbtn"
+            android:text="Địa chỉ của chúng tôi"
+            android:textSize="25dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="50dp"/>
+    </LinearLayout>
+
+</ScrollView>

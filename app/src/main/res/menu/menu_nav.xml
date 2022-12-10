@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item android:id="@+id/nav_btn_home"
+            android:title="@string/nav_home"
+            android:icon="@drawable/ic_home"/>
+
+        <item android:id="@+id/nav_btn_booking"
+            android:title="@string/nav_news"
+            android:icon="@drawable/ic_home"
+            />
+
+        <item android:id="@+id/nav_btn_contact"
+            android:title="@string/nav_contact"
+            android:icon="@drawable/ic_call_24"/>
+    </group>
+
+    <item android:title="@string/nav_account">
+        <menu>
+            <item android:id="@+id/nav_btn_profie"
+                android:title="@string/nav_profile"
+                android:icon="@drawable/ic_profile_24"/>
+
+            <item android:id="@+id/nav_btn_change_pass"
+                android:title="@string/nav_change_pass"
+                android:icon="@drawable/ic_password_24"/>
+
+            <item android:id="@+id/nav_btn_logout"
+                android:title="@string/nav_logout"
+                android:icon="@drawable/ic_logout_24"/>
+
+        </menu>
+
+    </item>
+</menu>

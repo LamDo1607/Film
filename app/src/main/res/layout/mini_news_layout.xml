@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:background="#FD4436">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TieuDe"
+        android:text="Tieu de"
+        android:textSize="35dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#F44336"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/anh"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/NoiDungNews"
+        android:text="noi dung"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/TieuDe"
+        android:layout_toRightOf="@+id/anh"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/NgayDang"
+        android:text="ngay dang"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/NoiDungNews"
+        android:layout_toRightOf="@+id/anh"
+        android:layout_marginLeft="10dp"
+        />
+</RelativeLayout>

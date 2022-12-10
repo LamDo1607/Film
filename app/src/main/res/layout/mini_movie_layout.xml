@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/MoviePosterMini"
+        android:layout_width="150dp"
+        android:layout_height="200dp"></ImageView>
+
+    <TextView
+        android:id="@+id/MovieNameMini"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/MoviePosterMini"
+        android:text="ten phim"
+        android:textColor="@color/black"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/MovieTimeMini"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:text="thoi luong"
+        android:layout_below="@id/MovieNameMini"
+        android:layout_toRightOf="@+id/MoviePosterMini"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/NgayChieuMini"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:text="ngay chieu"
+        android:layout_below="@id/MovieTimeMini"
+        android:layout_toRightOf="@+id/MoviePosterMini"
+        android:layout_marginLeft="10dp"
+        />
+
+</RelativeLayout>
